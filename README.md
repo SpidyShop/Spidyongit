@@ -1,4 +1,4 @@
-<img src="https://blogs.swarthmore.edu/its/wp-content/uploads/2022/12/github-universe-1920x768.png"  height="450"  ></img>
+<img src="https://i.pinimg.com/originals/83/b8/09/83b809857acd41a7bad4935b4734f9fc.gif"  height="450"  ></img>
 
 <h1 align="center">Hi 👋, I'm Laster</h1>
 
