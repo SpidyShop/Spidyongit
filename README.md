@@ -10,25 +10,63 @@
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">about me (:
 
-```javascript
-const Laster = {
-  Introduce: "Hi" | "Him",
-  Code: ["Javascript","HTML", "CSS","Python"],
-  Tools: ["VsCode", "coffee", "Node", "Computer", "Code", "Brain"],
-  Favorite: ["Code", "Computers", "Google"],
-  MyInfo: {
-      Name: "Laster",
-      Age: 18,
-      Job: "Studying"
-},
+```cs
 
-const MyPoint = "To work in google (:"
+
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        var laster = new Laster
+        {
+            Introduce = "Hi",
+            Code = new List<string> { "Javascript", "HTML", "CSS", "Python" },
+            Tools = new List<string> { "VsCode", "coffee", "Node", "Computer", "Code", "Brain" },
+            Favorite = new List<string> { "Code", "Computers", "Google" },
+            MyInfo = new MyInfo
+            {
+                Name = "Laster",
+                Age = 18,
+                Job = "Studying"
+            }
+        };
+
+        string myPoint = "To work in Google (:";
+        
+        Console.WriteLine(laster);
+        Console.WriteLine(myPoint);
+    }
 }
 
-console.log(Laster)
+class Laster
+{
+    public string Introduce { get; set; }
+    public List<string> Code { get; set; }
+    public List<string> Tools { get; set; }
+    public List<string> Favorite { get; set; }
+    public MyInfo MyInfo { get; set; }
 
-alert(MyPoint)
-```
+    public override string ToString()
+    {
+        return $"Introduce: {Introduce}\nCode: {string.Join(", ", Code)}\nTools: {string.Join(", ", Tools)}\nFavorite: {string.Join(", ", Favorite)}\nMyInfo: {MyInfo}";
+    }
+}
+
+class MyInfo
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Job { get; set; }
+
+    public override string ToString()
+    {
+        return $"Name: {Name}, Age: {Age}, Job: {Job}";
+    }
+}
+
 
 
 
