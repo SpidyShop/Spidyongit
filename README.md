@@ -1,5 +1,23 @@
 <img src="https://i.pinimg.com/originals/83/b8/09/83b809857acd41a7bad4935b4734f9fc.gif"  height="450"  ></img>
 
+<style>
+    @keyframes moveText {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(50px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    h1 {
+      animation: moveText 2s infinite;
+      text-align: center;
+    }
+  </style>
 <h1 align="center">Hi there wellcome to spidyshop</h1>
 
 
