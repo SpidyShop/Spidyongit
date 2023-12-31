@@ -20,32 +20,32 @@ class Program
 {
     static void Main()
     {
-        var laster = new Laster
+        var spidyshop = new spidyshop
         {
-            Introduce = "Hi",
-            Code = new List<string> { "Javascript", "HTML", "CSS", "Python" },
-            Tools = new List<string> { "VsCode", "coffee", "Node", "Computer", "Code", "Brain" },
-            Favorite = new List<string> { "Code", "Computers", "Google" },
+            Introduce = "Hello!",
+            OurService = new List<string> { "Scripts", "GameServers", "Fivem", "Nito"  "And Much More"},
+            OurTeam = new List<string> { "357r", "omoriam", "mrspidysm",},
+            Favorite = new List<string> { "Code", "Computers", "Spidy" },
             MyInfo = new MyInfo
             {
-                Name = "Laster",
-                Age = 18,
-                Job = "Studying"
+                Name = "MrSM",
+                Age = ??,
+                Job = "Coding and Hacking!"
             }
         };
 
-        string myPoint = "To work in Google (:";
+        string OurPoint = "We Will Grow Up!";
         
-        Console.WriteLine(laster);
-        Console.WriteLine(myPoint);
+        Console.WriteLine(spidyshop);
+        Console.WriteLine(OurPoint);
     }
 }
 
-class Laster
+class spidyshop
 {
     public string Introduce { get; set; }
-    public List<string> Code { get; set; }
-    public List<string> Tools { get; set; }
+    public List<string> OurService { get; set; }
+    public List<string> OurTeam { get; set; }
     public List<string> Favorite { get; set; }
     public MyInfo MyInfo { get; set; }
 
@@ -74,13 +74,8 @@ class MyInfo
 
 
 
-- 🌱 I’m currently learning **C#,C++,C**
 
-- 💬 Ask me about **Python,Html,Css,JavaScript,**
-
-- ⚡ Fun fact **Computers are so stupid Lol ;**
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Follow Our Social Media! And Contact Us For Any Issues</h3>
 <p align="left">
 <a href="https://twitter.com/kennnylaster" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kennnylaster" height="30" width="40" /></a>
 <a href="https://instagram.com/lasterfor3ver" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="lasterfor3ver" height="30" width="40" /></a>
